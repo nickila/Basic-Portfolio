@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/knitting250px.png);
+    margin: 0 auto;
+    color: #4A6F7F;
+    
+    
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid rgb(196, 41, 41);
+    margin: 1em 0;
+    padding: 0; 
+}
+
+#name {
+    float: left;
+    margin-left: 200px;
+    background-color: #4A6F7F;
+    padding: 2px 10px 2px 10px;
+    color: white;
+    font-size: 24px;
+
+}
+
+a {
+    color: #A9B8BF;
+    text-decoration: none;
+    
+}
+a:hover {
+    color: #95DEFF;
+}
+
+#links {
+    padding-top: 100px;
+    height: 23px;
+    width: 100%;
+    text-align: right;
+    bottom: 10px;
+    background-color: white;
+    
+}
+image {
+    height: 200px;
+    width: 200px;
+}
+#right {
+    
+    margin-right: 200px;
+}
+img {
+    float: left;
+    margin: 12px 15px 15px 15px;
+    width: 300;
+    
+    border: 3px solid rgb(205, 216, 221);
+    border-radius: 3px;
+}
+.picBio {
+    
+    background-color: rgb(249, 251, 252);
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-bottom: 150px;
+
+    
+}
+
+#mainStuff {
+    
+    min-width: 1042px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+
+
+
+
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.pp {
+    padding-bottom: 40px;
+}
+.ppp {
+    
+    padding-top: 10px;
+}
+
+h2 {
+    padding-left: 15px;
+    color: #4A6F7F;
+    
+}
+
+
+.container {
+    border-radius: 5px;
+   
+
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+footer {
+    
+    height: 30px;
+    width: 100%;
+    background-color: #4A6F7F; 
+    float: left;  
+    bottom: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+
+
+}
+form {
+    margin: 5px 15px 30px;
+    
+}
+
+
+
+
+input[type=text], select {
+    width: 50%;
+    margin: 5px 15px 30px 0;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #4A6F7F;
+    outline: none;
+    border: solid 1px #A9B8BF;
+    border-radius: 3px;
+
+}
+input[type=submit] {
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    outline: none;
+    background-color: #4A6F7F;
+    border: solid 1px #4A6F7F;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 18px;
+    
+    
+
+
+}
+input[type=submit]:hover {
+    background-color: rgb(46, 77, 90);
+    border-color: rgb(46, 77, 90);
+    
+
+
+}
+
+input[type=message] {
+    width: 75%;
+    height: 300px;
+    font-size: 12px;
+    color: #4A6F7F;
+    margin: 5px 15px 30px 0;
+    padding: 10px 20px;
+    outline: none;
+    border: solid 1px #A9B8BF;
+    border-radius: 3px;
+    
+}
+input[name=message] {
+    padding-top: 20px;
+}
+
+
+.gallery {
+    float: left;
+
+}
+.gallery img {
+    
+    width: 300px;
+    
+
+}
+.description {
+    padding: 20px;
+}
