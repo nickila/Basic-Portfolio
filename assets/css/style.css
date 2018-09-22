@@ -169,7 +169,10 @@ form {
     margin: 5px 15px 30px;
     
 }
-
+::placeholder {
+    color: rgb(188, 204, 211);
+    font-weight: lighter;
+}
 
 
 
@@ -177,8 +180,8 @@ input[type=text], select {
     width: 50%;
     margin: 5px 15px 30px 0;
     padding: 10px 20px;
-    font-size: 12px;
-    color: #4A6F7F;
+    font-size: 18px;
+    color: #2B3A5A;
     outline: none;
     border: solid 1px #A9B8BF;
     border-radius: 3px;
@@ -208,10 +211,10 @@ input[type=submit]:hover {
 
 }
 
-input[type=message] {
+textarea {
     width: 75%;
     height: 300px;
-    font-size: 12px;
+    font-size: 18px;
     color: #4A6F7F;
     margin: 5px 15px 30px 0;
     padding: 10px 20px;
@@ -219,7 +222,9 @@ input[type=message] {
     border: solid 1px #A9B8BF;
     border-radius: 3px;
     
+
 }
+
 input[name=message] {
     padding-top: 20px;
 }
